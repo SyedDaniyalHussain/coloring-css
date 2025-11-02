@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "abc";
+    src: url(/font/Momo_Signature\,Momo_Trust_Display.zip);
+}
+
+.bank > h1 {
+    color: #278f27;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bank > h1:hover {
+    text-shadow: 2px 2px 2px rgb(159, 199, 114);
+}
+.bank > p {
+    font-size: 30px;
+    color: rgb(102, 153, 102);
+}
+.one::first-letter {
+    color: brown;
+    font-weight: bold;
+    font-style: italic;
+    font-size:50px;
+}
+.two::first-letter{
+    color:violet;
+    font-size: 50px;
+    font-weight: bold;
+}   
+.one::first-line{
+    color: teal;
+    font-style: italic;
+}
+.two::first-line{
+    color: burlywood;
+    font-style: italic;
+}
+.bank > a {
+    color: rgb(85, 127, 127);
+    font-size: 20px;
+    text-decoration: none;
+}
+.bank >a:link{
+    color: antiquewhite;
+}  
+
+.bank >a:hover{
+    text-shadow: 2px 2px 2px orange;
+}
+.bank >a:visited{
+    color: rgb(12, 16, 16);
+}
+.bank >a:focus{
+  outline: 2px solid orange; 
+}
+.end {
+    color: rgb(71, 197, 255);
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}   
